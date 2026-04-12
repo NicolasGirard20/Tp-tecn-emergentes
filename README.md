@@ -35,6 +35,7 @@ curl -X POST http://localhost:5000/generos   -H "Content-Type: application/json"
 
 ## Estructura de la API
 
+```
 APIrest/
 │
 ├── app.py                  # Punto de entrada, solo inicializa y corre Flask
@@ -49,3 +50,4 @@ APIrest/
 └── services/
     ├── ia_service.py       # Funciones que llaman a Groq
     └── jikan_service.py    # Funciones que llaman a Jikan API
+```
