@@ -1,6 +1,8 @@
 ## Pasos
 - Tener descargado python
 - Descargar la herramienta pip
+- Crear la carpeta para el entorno virtual.
+python3 -m venv .venv
 
 - En linux: cada vez que se abra el archivo ejecutar esto para activar el entorno virtual
 source venv/bin/activate
